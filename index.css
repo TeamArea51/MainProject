@@ -1,0 +1,471 @@
+body{
+  background-color: black;
+}
+
+#header-name {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  margin: 60px 0 0 0;
+  
+}
+
+#header-subname{
+  color: white;
+  font-family: 'Caudex', serif;
+  text-align: center;
+  margin: 15px 0 25px 0;
+  font-size: 24px;
+
+}
+
+ul.topnav {
+  position: sticky;
+  list-style-type: none;
+  
+  padding: 0;
+  text-align: center;
+}
+
+ul.topnav:active{
+  color: grey;
+}
+
+li {
+  text-align: center;
+  display: inline;
+  padding-left:70px;
+  padding-right:70px;
+  
+}
+
+li a{
+  text-align: center;
+  padding: 17px 17px 17px 17px;
+  text-decoration: none;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+
+li a:hover{
+  color: black;
+  background-color: rgb(182, 182, 182);
+  border-radius: 10%;
+}
+
+
+
+
+
+
+
+
+
+/* .second-watch {
+  margin-top: 70px;
+  height: 400px;
+  width: 720px;
+
+
+  -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.second-watch:hover{
+  -webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+
+.third-watch {
+  margin-left: 736px;
+  height: 460px;
+  width: 770px ;
+  margin-top: -402px;
+
+
+
+  -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.third-watch:hover{
+  -webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+
+.fourth-watch {
+  margin-top:-41px ;
+  margin-bottom: 0px;
+  margin-right:0px ;
+  margin-left:0px ;
+  height: 501px;
+  width:719px ;
+
+  -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+
+  
+}
+
+
+.fourth-watch:hover{
+  -webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+.fifth-watch {
+  margin-top: -431px;
+  margin-bottom: 0px;
+  margin-left: 741px;
+  margin-right: 0px;
+  height: 441px;
+  width: 768px;
+
+
+
+  -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+
+
+  
+
+
+  
+}
+
+.fifth-watch:hover {
+  -webkit-filter: grayscale(0);
+	filter: grayscale(0);
+
+
+  
+  
+} */
+
+
+
+
+
+.mid-bottom{
+  margin-left: 30%;
+  text-align: center;
+  font-family: 'Open Sans';
+  display: inline-block;
+  padding-bottom: 100px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+.slideshow-wali-img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  
+  
+  max-width: 1200px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+/* Position the "next button" to the right */
+.next {
+  
+  
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: grey;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  
+}
+
+.active, .dot:hover {
+  background-color: black;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+
+
+
+.daniel-klein {
+  
+  
+  display: block;
+  position: relative;
+  margin: auto;
+  height: 506.25px;
+  max-width: 1500px;
+  width: 100%;
+  height: auto;
+  margin-top: 52px;
+  padding-bottom: 60px;
+}
+
+
+
+/* .image-1 {
+  display: block;
+  position: relative;
+  margin: auto;
+  
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+  margin-top: 52px;
+  
+}
+.image-2 {
+  display: block;
+  position: relative;
+  margin: auto;
+  
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+  margin-top: 52px;
+  
+}
+.image-3 {
+  display: block;
+  position: relative;
+  margin: auto;
+  
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+  margin-top: 52px;
+  
+} */
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+#hover {
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+}
+#hover {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+}
+#hover:hover {
+  filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  
+ 
+}
+
+
+.footer{
+  background-color: black;
+}
+
+#content{
+  color: white;
+  text-align: center;
+  font-family: 'Open Sans';
+  font-weight: bold;
+}
+
+#sub-content {
+  color: white;
+  text-align: center;
+  font-family: 'Open Sans';
+  font-size: 15px;
+}
+
+
+video::-webkit-media-controls {
+  display: none;
+}
+
+
+.space{
+  height:180px;
+}
+#model1-img {
+  
+  float: left;
+  margin-left: 15%;
+  height: auto;
+  width: 30%;
+}
+.model1-h2 {
+  position:relative ;
+  display: inline-block;
+  padding-top: 75px;
+
+  color: white;
+  font-family: 'Comfortaa';
+  
+}
+.model1-p {
+  position: relative;
+  line-height: 2;
+  display: inline-block;
+  color: white;
+  font-family: 'Comfortaa';
+}
+
+.watch-row {
+  width: 75%;
+  margin:  auto;
+  margin-bottom: 18%;
+  text-align: left;
+}
+.img-1 {
+  width: 43%;
+  float: right;
+  margin-right: 30px;
+}
+.img-2 {
+  width: 40%;
+  float: left;
+
+}
+.bottom-footer {
+  margin: 0px auto 0px auto;
+  
+  
+
+}
+
+table {
+  color: white;
+  text-align: center;
+  width: 100%;
+  padding: 2% 15% 0 15%;
+  
+  
+
+}
+
+th {
+  color:white;
+  font-family: 'Comfortaa';
+  padding: 1.5%;
+  
+}
+
+.bottom-footer-links {
+  text-decoration: none;
+  color: grey;
+  font-family: 'Comfortaa';
+  
+}
+.bottom-footer-links:hover {
+  text-decoration: underline;
+  color: white;
+  
+}
